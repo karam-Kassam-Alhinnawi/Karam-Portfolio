@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Karam-Portfolio/static/css/main.1a96ba97.css",
+    "main.js": "/Karam-Portfolio/static/js/main.ae6e895e.js",
+    "static/media/typescript.png": "/Karam-Portfolio/static/media/typescript.d362ac9034fd59687ef3.png",
+    "static/media/412351473_394017396487168__n.webp": "/Karam-Portfolio/static/media/412351473_394017396487168_7595375978997445629_n.e783cc0222e5c7363bf2.webp",
+    "static/media/pngwing.com (4).png": "/Karam-Portfolio/static/media/pngwing.com (4).3549d9e451d7abb96934.png",
+    "static/media/hoobank.webp": "/Karam-Portfolio/static/media/hoobank.e76ecfec0cc2974b7b02.webp",
+    "static/media/karam-admin.png": "/Karam-Portfolio/static/media/karam-admin.d6981b7a302fcffb0460.png",
+    "static/media/pngwing.com (3).png": "/Karam-Portfolio/static/media/pngwing.com (3).cb0fcc269e8250f3551b.png",
+    "static/media/pngwing.com (html).png": "/Karam-Portfolio/static/media/pngwing.com (html).1d7b133e22ffe4829da6.png",
+    "static/media/react.png": "/Karam-Portfolio/static/media/react.80045de70681e3171446.png",
+    "static/media/crud.png": "/Karam-Portfolio/static/media/crud.614df33a656d3f2d90d3.png",
+    "static/media/pngwing.com (2).png": "/Karam-Portfolio/static/media/pngwing.com (2).6aebf6ec92ec8ea44e4d.png",
+    "static/media/pngwing.com (js).png": "/Karam-Portfolio/static/media/pngwing.com (js).f440b6de2ac7ba29e8e7.png",
+    "static/media/my-resume.docx": "/Karam-Portfolio/static/media/my-resume.b90065c890d0a586801d.docx",
+    "static/media/pngwing.com (github).png": "/Karam-Portfolio/static/media/pngwing.com (github).69ffd9cd5a846c976177.png",
+    "static/media/pngwing.com (1).png": "/Karam-Portfolio/static/media/pngwing.com (1).590f255d949e1a9a0f9d.png",
+    "static/media/pngwing.com (5).png": "/Karam-Portfolio/static/media/pngwing.com (5).1e7800226257cf0a44bf.png",
+    "static/media/hand.svg": "/Karam-Portfolio/static/media/hand.330b49cc7cd3bedaa20e738eb0d42fc1.svg",
+    "static/media/files.svg": "/Karam-Portfolio/static/media/files.d6e358c5e2215011198994ebe1d60155.svg",
+    "static/media/send.svg": "/Karam-Portfolio/static/media/send.3275c56a29a24fd53507d2cb755cd976.svg",
+    "static/media/bxl-instagram.svg": "/Karam-Portfolio/static/media/bxl-instagram.1ae173b0cb8103732f62a0165142e30d.svg",
+    "static/media/scroll.svg": "/Karam-Portfolio/static/media/scroll.083a8933455e8ad6b49dac04b76dcfae.svg",
+    "static/media/bxl-whatsapp.svg": "/Karam-Portfolio/static/media/bxl-whatsapp.7b1b87e188f271c43455c27714edc627.svg",
+    "index.html": "/Karam-Portfolio/index.html",
+    "static/media/bx-code-alt.svg": "/Karam-Portfolio/static/media/bx-code-alt.0773ddc4e2a966e1c2b6074619aded40.svg",
+    "static/media/bxl-gmail.svg": "/Karam-Portfolio/static/media/bxl-gmail.a9c0caffbb180e875e7820c6dc6f2fc1.svg",
+    "main.1a96ba97.css.map": "/Karam-Portfolio/static/css/main.1a96ba97.css.map",
+    "main.ae6e895e.js.map": "/Karam-Portfolio/static/js/main.ae6e895e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a96ba97.css",
+    "static/js/main.ae6e895e.js"
+  ]
+}
