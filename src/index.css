@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#profile-picture{
+    background: url(./assets/412351473_394017396487168_7595375978997445629_n.webp) no-repeat center;
+    transform: scale(105%);
+    background-size: cover;
+    box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%) !important;
+    order: 1;
+    margin-bottom: 40px;
+    justify-self: center;
+    animation: profile_animate 5s ease-in-out infinite 1s !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#skills{
+  animation: skills_animate 5s linear infinite alternate 1s !important; 
+}
+
+.overlay {
+  background: rgba(49,49,49,0.8);
+}
+.modal-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+  height: 200px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+}
+
+
+@keyframes profile_animate {
+    0%{
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50%{
+      border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+    100%{
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+}
+
+@keyframes skills_animate {
+    to{
+      border-radius: 15%;
+    }
 }
