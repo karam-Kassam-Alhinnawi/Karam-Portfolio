@@ -29,11 +29,12 @@ const skillsList = [
 
 const Skills = () => {
   return (
-    <div id='skills' data-aos="zoom-up" data-aos-duration="1000" className='md:my-24 flex flex-col items-center justify-center text-black'>
-       <h2 className='font-bold text-5xl'>Skills</h2>
-       <p className='mt-2'>My Technical Skills</p>
+    <div id='skills' data-aos="zoom-up" data-aos-duration="1000" className='md:py-24 dark:bg-black flex flex-col items-center justify-center text-black'>
+       <h2 className='font-bold text-5xl dark:text-white'>Skills</h2>
+       <p className='mt-2 dark:text-white'>My Technical Skills</p>
 
-      <div id='skills' className="mt-5 grid lg:grid-cols-5 grid-cols-2 grid-rows-2 gap-x-24 rounded-xl border-x-2 border-t-2 border-black shadow-md shadow-slate-300">
+      <div id='skills-section' className="mt-5 grid lg:grid-cols-5 grid-cols-2 grid-rows-2 gap-x-24 rounded-xl
+       border-x-2 border-t-2 border-black dark:border-white shadow-md shadow-slate-300">
        
        {/* <div className='flex gap-x-10'> */}
         {skillsList.map((skill) => 
@@ -46,6 +47,7 @@ const Skills = () => {
 
 
       </div>
+      <hr className='bg-white text-white h-1 w-[100%] mt-16' />
 
     </div>
   )

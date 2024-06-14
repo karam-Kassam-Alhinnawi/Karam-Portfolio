@@ -24,7 +24,7 @@ const Modal = ({children}) => {
        
         <div className="modal-content rounded-2xl">
              {children}
-            <button className='close-modal' onClick={toggleModal}><X/></button>
+            <button className='close-modal' onClick={toggleModal}><X color='black'/></button>
         </div>
      </div>}
      

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  @apply transition-colors duration-75
+}
+
 #profile-picture{
     background: url(./assets/412351473_394017396487168_7595375978997445629_n.webp) no-repeat center;
     transform: scale(105%);
@@ -11,9 +15,15 @@
     margin-bottom: 40px;
     justify-self: center;
     animation: profile_animate 5s ease-in-out infinite 1s !important;
+    filter: drop-shadow(0 0 50px white);
 }
 
-#skills{
+body{
+  /* filter: invert(100%) hue-rotate(180deg); */
+  /* background-color: black !important; */
+}
+
+#skills-section{
   animation: skills_animate 5s linear infinite alternate 1s !important; 
 }
 

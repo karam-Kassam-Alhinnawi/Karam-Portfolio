@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { Sun } from "lucide-react";
+import { Moon } from "lucide-react";
 
 
 // NavLinks
@@ -14,12 +16,14 @@ const navItems = [
 
 
 // Map over the navItems and make nav links
-const NavLinks = () => {
+const NavLinks = ({darkMode, setdarkMode}) => {
+
     return(
         <>
-        {navItems.map(item => <a className="text-black" href={item.href}>
-        <li className="px-4 py-2 md:py-0 text-[18px] text-black list-none">{item.label}</li>
+        {navItems.map(item => <a className="text-black dark:text-white" href={item.href}>
+        <li className="px-4 py-2 md:py-0 text-[18px] text-black dark:text-white list-none">{item.label}</li>
         </a>)}
+
         </>
     )
 }
@@ -38,14 +42,15 @@ export default function Nav(){
       <div className="hidden w-full lg:flex justify-between">
       <NavLinks/>
       </div>
-      <button className="lg:hidden text-black" onClick={toggleNavbar}>
+      <button className="lg:hidden text-black dark:text-white" onClick={toggleNavbar}>
         {isOpen ? <X/> : <Menu/>}
       </button>
+
       
      </nav>
 
      {isOpen && (
-        <div className="flex basis-full flex-col items-center mt-8 text-black">
+        <div className="flex basis-full flex-col items-center mt-8 text-black dark:text-white">
             <NavLinks/>
           </div> 
      )}

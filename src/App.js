@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 // Import Scroll Animations
 import AOS from 'aos';
@@ -21,21 +21,23 @@ import Footer from "./Components/Footer";
 import 'boxicons';
 
 function App() {
+  const [darkMode, setdarkMode] = useState(true);
   // Initilize the AOS Animation Library
   useEffect(() => {
     AOS.init();
   })
 
   return (
-    <div >
-     <Navbar/>
-     <Hero/>
+
+    <div className={`${darkMode && "dark"}`}>
+     <Navbar darkMode={darkMode} setdarkMode={setdarkMode}/>
+     <Hero darkMode={darkMode} setDarkMode={setdarkMode}/>
      <AboutMe/>
      <Skills/>
-     <Services/>
-     <Portfolio/>
-     <Contact/>
-     <Footer/>
+     <Services darkMode={darkMode}/>
+     <Portfolio />
+     <Contact darkMode={darkMode}/>
+     <Footer />
     </div>
   );
 }

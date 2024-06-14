@@ -6,11 +6,11 @@ const links = [
     {href: "https://www.facebook.com/profile.php?id=100069551584000", name:'facebook'}
 ]
 
-const HeroLinks = () => {
+const HeroLinks = ({darkMode}) => {
   return (
     <div className='flex lg:flex-col gap-6 mt-5 lg:mt-0 md:mr-4'>
         {links.map((link) => 
-            <a href={link.href} target='_blank'><box-icon type='logo' name={link.name}></box-icon></a>
+            <a href={link.href} target='_blank'>{darkMode ? <box-icon type='logo' name={link.name} color="#fff"></box-icon> : <box-icon type='logo' name={link.name}></box-icon>}</a>
         )}
     </div>
   )
