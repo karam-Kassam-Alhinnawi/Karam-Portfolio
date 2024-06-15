@@ -40,7 +40,7 @@ const Skills = () => {
         {skillsList.map((skill) => 
           <div className='text-center mt-6 flex flex-col items-center justify-center skill px-6 py-4 rounded-xl'>
             <img src={skill.img} id={skill.id} className='w-32 pb-4' alt="" />
-            <p className='font-semibold text-xl'>{skill.name}</p>
+            <p className='font-semibold text-xl text-white'>{skill.name}</p>
           </div>
         )}
        {/* </div> */}

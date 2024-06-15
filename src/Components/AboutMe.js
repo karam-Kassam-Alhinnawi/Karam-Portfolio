@@ -12,7 +12,7 @@ const about = [
     {icon:"location-plus", name:"Based In", value: "Syria"},
 ]
 
-const AboutMe = () => {
+const AboutMe = ({darkMode}) => {
   return (
     <div id='about' data-aos="zoom-in" data-aos-duration="1000" className='md:px-40 pt-10 dark:bg-black flex flex-col items-center justify-center text-black'>
        <h2 className='font-bold text-5xl dark:text-white'>About Me</h2>
@@ -28,7 +28,7 @@ const AboutMe = () => {
              <div className='flex flex-col items-center justify-center shadow-xl
               border p-3 w-[120px] h-32 md:w-32 rounded-lg dark:shadow-md dark:shadow-white'>
          
-             <box-icon type='icon' name={info.icon} color="#fff"></box-icon>
+             {darkMode ? <box-icon type='icon' name={info.icon} color="#fff"></box-icon> : <box-icon type='icon' name={info.icon}></box-icon>}
              <p className='my-2 font-semibold dark:text-white'>{info.name}</p>
              <p className='dark:text-white'>{info.value}</p>
 

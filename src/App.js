@@ -21,7 +21,7 @@ import Footer from "./Components/Footer";
 import 'boxicons';
 
 function App() {
-  const [darkMode, setdarkMode] = useState(true);
+  const [darkMode, setdarkMode] = useState(false);
   // Initilize the AOS Animation Library
   useEffect(() => {
     AOS.init();
@@ -32,7 +32,7 @@ function App() {
     <div className={`${darkMode && "dark"}`}>
      <Navbar darkMode={darkMode} setdarkMode={setdarkMode}/>
      <Hero darkMode={darkMode} setDarkMode={setdarkMode}/>
-     <AboutMe/>
+     <AboutMe darkMode={darkMode}/>
      <Skills/>
      <Services darkMode={darkMode}/>
      <Portfolio />
