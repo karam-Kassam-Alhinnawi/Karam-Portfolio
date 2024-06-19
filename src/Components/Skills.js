@@ -33,7 +33,7 @@ const Skills = () => {
        <h2 className='font-bold text-5xl dark:text-white'>Skills</h2>
        <p className='mt-2 dark:text-white'>My Technical Skills</p>
 
-      <div id='skills-section' className="mt-5 grid lg:grid-cols-5 grid-cols-2 grid-rows-2 gap-x-24 rounded-xl
+      <div id='skills-section' className="mt-5 grid lg:grid-cols-5 grid-cols-2 grid-rows-2 gap-x-5 md:gap-x-24 rounded-xl
        border-x-2 border-t-2 border-black dark:border-white shadow-md shadow-slate-300">
        
        {/* <div className='flex gap-x-10'> */}

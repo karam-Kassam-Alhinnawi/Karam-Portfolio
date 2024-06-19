@@ -24,8 +24,8 @@ const Portfolio = () => {
           <div className="flex flex-col lg:flex-row items-center justify-center gap-6">
 
           {projects.map((project) => 
-          <div className='rounded-lg w-96 h-72 border-2 border-black dark:border-white shadow-2xl dark:shadow-lg dark:shadow-white flex flex-col items-start justify-start pt-5'>
-            <img className='w-[320px] h-[170px] rounded-xl mb-4 ml-6' src={project.img} alt="" />
+          <div className='rounded-lg w-80 md:w-96 h-72 border-2 border-black dark:border-white shadow-2xl dark:shadow-lg dark:shadow-white flex flex-col items-start justify-start pt-5'>
+            <img className='w-64 md:w-[320px] h-[170px] rounded-xl mb-4 ml-6' src={project.img} alt="" />
             <h4 className='ml-6 font-semibold text-lg dark:text-white'>{project.name}</h4>
             <a className='ml-6 mt-3 flex dark:text-white' href={project.link} target='_blank'>Live Demo <span className='ml-2'><ArrowRight/></span> </a>
           </div>

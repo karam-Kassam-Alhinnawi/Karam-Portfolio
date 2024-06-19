@@ -14,7 +14,9 @@ const about = [
 
 const AboutMe = ({darkMode}) => {
   return (
-    <div id='about' data-aos="zoom-in" data-aos-duration="1000" className='md:px-40 pt-10 dark:bg-black flex flex-col items-center justify-center text-black'>
+    <div id='about' data-aos="zoom-in" data-aos-duration="1000" className='md:px-40 pt-10
+     dark:bg-black flex flex-col items-center justify-center text-black'>
+
        <h2 className='font-bold text-5xl dark:text-white'>About Me</h2>
        <p className='mt-2 dark:text-white'>My Introduction</p>
 
@@ -26,7 +28,7 @@ const AboutMe = ({darkMode}) => {
         <div className="flex items-center flex-row gap-3 md:gap-5">
           {about.map((info) => 
              <div className='flex flex-col items-center justify-center shadow-xl
-              border p-3 w-[120px] h-32 md:w-32 rounded-lg dark:shadow-md dark:shadow-white'>
+              border p-3 w-[110px] h-32 md:w-32 rounded-lg dark:shadow-md dark:shadow-white'>
          
              {darkMode ? <box-icon type='icon' name={info.icon} color="#fff"></box-icon> : <box-icon type='icon' name={info.icon}></box-icon>}
              <p className='my-2 font-semibold dark:text-white'>{info.name}</p>
