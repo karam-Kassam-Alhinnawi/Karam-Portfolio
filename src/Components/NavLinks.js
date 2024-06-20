@@ -16,7 +16,7 @@ const navItems = [
 
 
 // Map over the navItems and make nav links
-const NavLinks = ({darkMode, setdarkMode}) => {
+const NavLinks = () => {
 
     return(
         <>
@@ -28,7 +28,7 @@ const NavLinks = ({darkMode, setdarkMode}) => {
     )
 }
 
-export default function Nav(){
+export default function Nav({darkMode, setdarkMode}){
     // Is open State for mobile nav
     const [isOpen, setIsOpen] = useState(false);
 
@@ -52,6 +52,8 @@ export default function Nav(){
      {isOpen && (
         <div className="flex basis-full flex-col items-center mt-8 text-black dark:text-white">
             <NavLinks/>
+        <button className="mt-3" onClick={() => setdarkMode(!darkMode)}>{darkMode ? <Sun/> : <Moon/>}</button>
+            
           </div> 
      )}
      </>

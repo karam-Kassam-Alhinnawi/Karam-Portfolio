@@ -1,6 +1,6 @@
 // import logo from "../assets/logo.png";
 import { useEffect, useState } from "react";
-import NavLinks from "./NavLinks";
+import Nav from "./NavLinks";
 import { Moon, Sun } from "lucide-react";
 
 
@@ -35,7 +35,7 @@ export default function Navbar({darkMode, setdarkMode}){
         <p className="text-[22px] text-black dark:text-white">Karam</p>
        </div>
        
-       <NavLinks darkMode={darkMode} setdarkMode={setdarkMode}/>
+       <Nav darkMode={darkMode} setdarkMode={setdarkMode}/>
 
       <button className="hidden md:flex" onClick={() => setdarkMode(!darkMode)}>{darkMode ? <Sun/> : <Moon/>}</button>
 
