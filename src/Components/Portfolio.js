@@ -7,9 +7,9 @@ import { ArrowRight } from 'lucide-react';
 
 
 const projects = [
-  {name: "Hoobank Landing Page" , link: "https://karam069.github.io/Hoobank/", img: HoobankImg},
-  {name: "Management System" , link: "https://karam069.github.io/Crud/", img: crudImg},
-  {name: "Admin Page" , link: "https://karam069.github.io/karam-admin/", img: adminPage},
+  {name: "Hoobank Landing Page" , link: "https://karam-kassam-alhinnawi.github.io/Hoobank/", img: HoobankImg},
+  {name: "Management System" , link: "https://karam-kassam-alhinnawi.github.io/Crud/", img: crudImg},
+  {name: "Admin Page" , link: "https://karam-kassam-alhinnawi.github.io/karam-admin/", img: adminPage},
 ]
 
 const Portfolio = () => {
