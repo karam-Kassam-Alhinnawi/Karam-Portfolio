@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Karam-Portfolio/static/css/main.192c4962.css",
-    "main.js": "/Karam-Portfolio/static/js/main.834aeb74.js",
+    "main.js": "/Karam-Portfolio/static/js/main.681f3166.js",
     "static/media/typescript.png": "/Karam-Portfolio/static/media/typescript.d362ac9034fd59687ef3.png",
     "static/media/412351473_394017396487168__n.webp": "/Karam-Portfolio/static/media/412351473_394017396487168_7595375978997445629_n.e783cc0222e5c7363bf2.webp",
     "static/media/pngwing.com (4).png": "/Karam-Portfolio/static/media/pngwing.com (4).3549d9e451d7abb96934.png",
@@ -23,10 +23,10 @@
     "static/media/scroll.svg": "/Karam-Portfolio/static/media/scroll.083a8933455e8ad6b49dac04b76dcfae.svg",
     "index.html": "/Karam-Portfolio/index.html",
     "main.192c4962.css.map": "/Karam-Portfolio/static/css/main.192c4962.css.map",
-    "main.834aeb74.js.map": "/Karam-Portfolio/static/js/main.834aeb74.js.map"
+    "main.681f3166.js.map": "/Karam-Portfolio/static/js/main.681f3166.js.map"
   },
   "entrypoints": [
     "static/css/main.192c4962.css",
-    "static/js/main.834aeb74.js"
+    "static/js/main.681f3166.js"
   ]
 }
