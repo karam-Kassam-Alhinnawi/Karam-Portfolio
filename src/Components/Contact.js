@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react';
 const talkToMe = [
     {icon: "whatsapp", value: "+963 998 914 538", name: "WhatsApp", link: "tel:+963 998 914 538"},
     {icon: "gmail", value: "karamkassamalhinnawi@gmail.com", name: "Email", link: "mailto:karamkassamalhinnawi@gmail.com"},
-    {icon: "instagram", value: "karam_kassam_alhinnawi", name: "Instagram", link: "https://www.instagram.com/karam_kassam_alhinnawi/"},
+    {icon: "instagram", value: "karam_alhinnawi", name: "Instagram", link: "https://www.instagram.com/karam_alhinnawi/"},
 ]
 
 const Contact = ({darkMode}) => {
