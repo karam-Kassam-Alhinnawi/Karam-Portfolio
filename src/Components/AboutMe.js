@@ -2,7 +2,7 @@ import React from 'react';
 
 import profilePicture from "../assets/412351473_394017396487168_7595375978997445629_n.webp";
 import filesIcon from "../assets/files.svg";
-import resume from "../assets/my-resume.docx"
+import Mainresume from "../assets/my-resume.pdf"
 
 import Button from './Button';
 
@@ -40,7 +40,7 @@ const AboutMe = ({darkMode}) => {
 
         <p className='mt-6 max-w-[400px] text-center md:text-left dark:text-white'>I'm a highly motivated developer based in Syria, I always try to keep up with the latest technoliges and make the websites <span className='font-bold'>pexel perfect</span></p>
    
-        <a href={resume} download><Button>Download CV <img src={filesIcon} alt="" /></Button></a>
+        <a href={Mainresume} download><Button>Download CV <img src={filesIcon} alt="" /></Button></a>
 
         </div>
 

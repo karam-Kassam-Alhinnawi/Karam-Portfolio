@@ -1,15 +1,15 @@
 import React from 'react';
 
 import HoobankImg from "../assets/hoobank.webp";
-import crudImg from "../assets/crud.png";
-import adminPage from "../assets/karam-admin.png";
+import AudioPhile from "../assets/audioPhile.png";
+import CareerCompass from "../assets/CareerCompass.png";
 import { ArrowRight } from 'lucide-react';
 
 
 const projects = [
   {name: "Hoobank Landing Page" , link: "https://karam-kassam-alhinnawi.github.io/Hoobank/", img: HoobankImg},
-  {name: "Management System" , link: "https://karam-kassam-alhinnawi.github.io/Crud/", img: crudImg},
-  {name: "Admin Page" , link: "https://karam-kassam-alhinnawi.github.io/karam-admin/", img: adminPage},
+  {name: "AudioPhile Ecommerce" , link: "https://career-compass-red.vercel.app/", img: AudioPhile},
+  {name: "Career Compass" , link: "https://career-compass-red.vercel.app/", img: CareerCompass},
 ]
 
 const Portfolio = () => {

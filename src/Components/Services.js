@@ -3,9 +3,9 @@ import React from 'react';
 import Modal from './Modal';
 
 const services = [
-    {name: "Front End Development", description: "To this point I have been coding for over a year and i'm speclized in Front End Development, and I can make sure that you get the perfect website", imgSrc: "code-alt"},
-    {name: "Resume Writing", description: "I have been working in the field of resume writing for over a year and a half and I design ATS friendly resumes", imgSrc: "book"},
-    {name: "English Translating", description: "I have been working as an English translator with TED talks for about three months", imgSrc: "book-content"}
+    {name: "Web Development", description: "To this point I have been coding for years and i'm speclized in Web Development, and I can make sure that you get the perfect website", imgSrc: "code-alt"},
+    {name: "Resume Writing", description: "I have been working in the field of resume writing for over two years and I design ATS friendly resumes", imgSrc: "book"},
+    {name: "English Translating", description: "I have been working as an English translator with TED talks for about five months", imgSrc: "book-content"}
 ]
 
 const Services = ({darkMode}) => {

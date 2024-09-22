@@ -15,7 +15,7 @@ const Hero = ({darkMode}) => {
         <div className='my-14'>
 
             <h1 className='text-5xl font-bold flex items-center dark:text-white gap-5'>Karam Kassam Alhinnawi <img src={hand} alt="" /></h1>
-            <p className='mt-5 text-lg dark:text-white'>--- Front End Developer</p>
+            <p className='mt-5 text-lg dark:text-white'>--- Web Developer</p>
 
             <p className='mt-6 dark:text-white'>I'm a highly motivated person who works significantly to expand my knowledge and my skills, <br /> I'm known to be a self-learner as I always try to learn new stuff </p>
           
