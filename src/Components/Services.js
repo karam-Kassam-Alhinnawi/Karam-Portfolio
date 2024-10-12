@@ -5,7 +5,7 @@ import Modal from './Modal';
 const services = [
     {name: "Web Development", description: "To this point I have been coding for years and i'm speclized in Web Development, and I can make sure that you get the perfect website", imgSrc: "code-alt"},
     {name: "Resume Writing", description: "I have been working in the field of resume writing for over two years and I design ATS friendly resumes", imgSrc: "book"},
-    {name: "English Translating", description: "I have been working as an English translator with TED talks for about five months", imgSrc: "book-content"}
+    {name: "English Translating", description: "I have been working as an English translator with TED talks for about six months and I beleive that I have the essitnal skills in this field", imgSrc: "book-content"}
 ]
 
 const Services = ({darkMode}) => {
